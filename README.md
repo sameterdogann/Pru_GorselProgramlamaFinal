@@ -11,15 +11,16 @@ Bu proje, anlık döviz kurlarını harici bir API (`frankfurter.app`) üzerinde
 | **Ad Soyad** | Samet ERDOĞAN |
 | **Öğrenci Numarası** | 20230108039 |
 | **Bölüm** | Bilgisayar Programcılığı |
-| **Ders Adı** | Görsel Programlama / İleri Programlama |
-| **Öğretim Görevlisi** | [Öğretim Görevlisi Adı] |
+| **Ders Adı** | Görsel Programlama |
+| **Ders Kodu** | BIP2033 |
+| **Öğretim Görevlisi** | Emrah SARIÇİÇEK |
 | **Teslim Tarihi** | 13/01/2026 |
 
 ---
 
 ## 📌 Proje Hakkında
 
-Bu **C#** uygulaması, `System.Net.Http` kütüphanesini kullanarak **HTTP GET** isteği yapar ve **Türk Lirası (TRY)** bazlı döviz verilerini **JSON** formatında alır.
+Bu **C#** uygulaması, `System.Net.Http` kütüphanesini kullanarak **HTTP GET** isteği yapar ve **Türk Lirası (TRY)** bazlı döviz verilerini alır.
 
 Alınan veriler `System.Text.Json` ile `CurrencyResponse` modeline deserialize edilir ve LINQ işlemleri için bellekte `List<Currency>` formatında tutulur. Uygulama, **LINQ (Language Integrated Query)** yapısını yoğun bir şekilde kullanarak veriler üzerinde sorgulama, sıralama ve analiz işlemleri gerçekleştirir.
 
@@ -46,7 +47,7 @@ Alınan veriler `System.Text.Json` ile `CurrencyResponse` modeline deserialize e
 ## ⚙️ Gereksinimler
 
 * **.NET SDK 8.0** veya üzeri
-* **Geliştirme Ortamı:** Visual Studio 2022 veya VS Code
+* **Tavsiye Edilen ve Geliştirilen IDE:** Visual Studio 2022 
 * **Kütüphaneler:** `System.Net.Http`, `System.Text.Json`, `System.Linq`
 
 ---
@@ -54,7 +55,7 @@ Alınan veriler `System.Text.Json` ile `CurrencyResponse` modeline deserialize e
 ## ▶️ Nasıl Çalıştırılır?
 
 1.  Bu repoyu bilgisayarınıza **indirin**.
-2.  Projeyi **Visual Studio** içerisinde açın.
+2.  Projeyi **Visual Studio 2022** içerisinde açın.
 3.  `Program.cs` dosyasının başlangıç projesi olduğundan emin olun.
 4.  İnternet bağlantınızın aktif olduğunu kontrol edin (API isteği için gereklidir).
 5.  Projeyi çalıştırın (`F5` veya `Ctrl+F5`).
