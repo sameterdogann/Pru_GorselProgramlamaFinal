@@ -1,4 +1,4 @@
-# CurrencyTracker – Döviz Takip Konsol Uygulaması
+# Döviz Takip Konsol Uygulaması
 
 Bu proje, anlık döviz kurlarını harici bir API (`frankfurter.app`) üzerinden çekip konsol ekranında listeleyen, filtreleyen ve istatistiksel analiz yapan bir **C# konsol uygulamasıdır**.
 
@@ -27,7 +27,7 @@ Alınan veriler `System.Text.Json` ile `CurrencyResponse` modeline deserialize e
 ### Kullanılan Veri Kaynağı:
 
 * **API Sağlayıcısı:** Frankfurter API (Open Source)
-* **Endpoint:** `https://api.frankfurter.app/latest?from=TRY`
+* **API Sağlayıcısının linki:** `https://api.frankfurter.app/latest?from=TRY`
 * **Veri Yapısı:** Base (Kaynak Para Birimi) ve Rates (Döviz Kurları Sözlüğü)
 
 ---
